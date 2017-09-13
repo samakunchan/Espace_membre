@@ -1,0 +1,13 @@
+h1, h3{
+    text-align: center;
+}
+section{
+    display: flex;
+}
+button{
+    background-color: beige;
+    height: 50px;
+}
+#contenu p {
+    font-size: 50px;
+}
