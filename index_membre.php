@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!doctype html>
 <html lang="fr">
 <head>
@@ -24,6 +25,7 @@
 </section>
 <section id="contenu">
     <p>Ici on trouve la page de connection au site et le formulaire d'inscription</p>
+    <?php var_dump($_SESSION)?>
 </section>
 
 </body>

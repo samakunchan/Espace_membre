@@ -40,6 +40,7 @@
 </section>
 <section id="contenu">
     <p>Formulaire d'inscription</p>
+    <?php var_dump($_SESSION)?>
 </section>
 
 </body>
