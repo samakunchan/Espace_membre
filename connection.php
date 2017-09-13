@@ -15,7 +15,7 @@
 </header>
 <section>
     <article>
-        <form action="traitement.php" method="post">
+        <form action="traitement_co.php" method="post">
             <label>Veuillez inscrire votre pseudo</label>
             <p>
                 <input type="text" name="pseudo" placeholder="ex : Samakunchan">
