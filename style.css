@@ -11,3 +11,17 @@ button{
 #contenu p {
     font-size: 50px;
 }
+form{
+    width: 500px;
+    background-color: beige;
+    box-shadow: 2px 2px 2px black;
+    margin-left: 80%;
+}
+label{
+
+    font-size: 25px;
+}
+input{
+    width: 99.4%;
+    font-size: 25px;
+}
