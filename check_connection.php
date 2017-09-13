@@ -1,7 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Samakunchan
- * Date: 13/09/2017
- * Time: 21:18
- */
+if($_POST['pseudo'] === $donnees['pseudo']){
+    header('Location: index_membre.php');
+}else{
+    echo "Login ou mot de passe incorrect";
+}

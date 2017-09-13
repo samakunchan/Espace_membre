@@ -5,5 +5,5 @@ $bdd = new PDO('mysql:host=localhost;dbname=infos_utilisateurs;charset=utf8', 'r
 $reponse = $bdd->prepare('SELECT pseudo FROM infos_membres WHERE pseudo =?');
 $reponse->execute(array($_POST['pseudo']));
 while ($donnees = $reponse->fetch()){
-    var_dump($donnees['pseudo']);
+    require 'check_connection.php';
 };
