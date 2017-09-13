@@ -20,18 +20,26 @@
             <p>
                 <input type="text" name="pseudo" placeholder="ex : Samakunchan">
             </p>
+            <label>Veuillez indiquer votre adresse mail</label>
+            <p>
+                <input type="email" name="email">
+            </p>
             <label>Mot de passe</label>
             <p>
                 <input type="password" name="password">
             </p>
+            <label>Confirmer le mot de passe</label>
             <p>
-                <input type="submit" value="Connection">
+                <input type="password" name="password">
+            </p>
+            <p>
+                <input type="submit" value="Inscription">
             </p>
         </form>
     </article>
 </section>
 <section id="contenu">
-    <p>Formulaire pour se connecter au site</p>
+    <p>Formulaire d'inscription</p>
 </section>
 
 </body>

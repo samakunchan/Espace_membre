@@ -18,7 +18,7 @@ form{
     margin-left: 80%;
 }
 label{
-
+    margin: 6px;
     font-size: 25px;
 }
 input{
