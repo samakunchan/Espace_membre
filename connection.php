@@ -11,7 +11,7 @@
 <body>
 <header>
     <h1>Site de Samakunchan</h1>
-    <h3>Page principale</h3>
+    <h3>Page de connection</h3>
 </header>
 <section>
     <article>

@@ -11,7 +11,7 @@
 <body>
 <header>
     <h1>Site de Samakunchan</h1>
-    <h3>Page principale</h3>
+    <h3>Page d'inscription</h3>
 </header>
 <section>
     <article>
@@ -40,7 +40,6 @@
 </section>
 <section id="contenu">
     <p>Formulaire d'inscription</p>
-    <p><?php require 'check_pseudo.php';?></p>
 </section>
 
 </body>
