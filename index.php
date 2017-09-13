@@ -13,7 +13,7 @@
         <h1>Site de Samakunchan</h1>
         <h3>Page principale</h3>
     </header>
-    <section>
+    <section id="principal">
         <article>
             <p>
                 <a href="connection.php">
