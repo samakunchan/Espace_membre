@@ -16,4 +16,6 @@ if($_POST['passwordIns'] === $_POST['passwordConf']){
     echo '<p>' . "Problème sur le mot de passe. Les deux valeurs sont différentes." . '</p>'; //MVC vue_erreur
 }
 //Faire le traitement email(regex)
+//Faire le regex du pseudo
+//check dela variable de session pour entrer sur index_membre
 

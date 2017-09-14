@@ -1,4 +1,6 @@
-<?php session_start();?>
+<?php
+if($_SESSION['pseudo'] && $_SESSION['password'] ){
+    ?>
 <!doctype html>
 <html lang="fr">
 <head>
@@ -30,3 +32,8 @@
 
 </body>
 </html>
+<?php
+}else{
+    header('Location: index.php');
+}
+?>
