@@ -24,7 +24,7 @@
     </article>
 </section>
 <section id="contenu">
-    <p>Ici on trouve la page de connection au site et le formulaire d'inscription</p>
+    <p>Bravo, vous êtes connecté</p>
     <?php var_dump($_SESSION)?>
 </section>
 

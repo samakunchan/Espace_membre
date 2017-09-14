@@ -26,11 +26,11 @@
             </p>
             <label>Mot de passe</label>
             <p>
-                <input type="password" name="password">
+                <input type="password" name="passwordIns">
             </p>
             <label>Confirmer le mot de passe</label>
             <p>
-                <input type="password" name="password">
+                <input type="password" name="passwordConf">
             </p>
             <p>
                 <input type="submit" value="Inscription">
